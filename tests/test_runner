@@ -1,0 +1,12 @@
+#!/bin/bash
+
+# Test runner for zero-copy-userspace-packet-filter
+
+# Compile all source files
+make
+
+# Run unit tests
+make test
+
+# Run integration tests
+make integration-test
